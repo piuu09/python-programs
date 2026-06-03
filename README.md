@@ -1,2 +1,2 @@
 # python-programs
-python programs for practice
+Addition of two numbers
