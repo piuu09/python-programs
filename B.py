@@ -1,15 +1,11 @@
-from A import A 
+from abc import ABC,abstractmethod
+from A import A
 class B(A):
-    def abc(self):
-        print(" from abc B")
+    pass
+    def show(self):
+        print(" hi im show from B")
 
 
-
-
-    def __init__(self):
-        print("from B ") 
-        #A.__annotate__(self)  
-        super().__init__() 
-
-
-
+obj=B()
+obj.xyz() 
+obj.show()       

@@ -1,8 +1,13 @@
-class A:
+from abc import ABC,abstractmethod
+class A(ABC):
+
+
     def xyz(self):
-        print(" from xyz A")
+     print(" hello xyz")
 
 
+    @abstractmethod
+    def show(self):
+        print(" hi show")    
 
-    def __init__(self):
-        print("from  A")    
+
